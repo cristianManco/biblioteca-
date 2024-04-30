@@ -66,7 +66,7 @@ $ yarn run test:cov
 ```bash
 node -e "console.log(require('crypto').randomBytes(32).toString('hex'))"
 ```
-- viables de enviroment requiret
+- viables of enviroment requiret
 
 ```bash
   DB_CONNECTION=
@@ -91,6 +91,7 @@ Nest is an MIT-licensed open source project. It can grow thanks to the sponsors 
 ## Stay in touch
 
 - Author - [Lina Beltrán](linadev92@gmail.com)
+<!-- - Author - [Cristian Manco](https://github.com/cristianManco)  -->
 - Website - [https://nestjs.com](https://nestjs.com/)
 - Twitter - [@nestframework](https://twitter.com/nestframework)
 
