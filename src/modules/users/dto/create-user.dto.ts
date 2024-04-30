@@ -4,10 +4,12 @@ import { IsEmail, IsNotEmpty, IsOptional, IsString } from 'class-validator';
 export class CreateUserDto {
   @ApiProperty()
   @IsOptional()
+  @IsNotEmpty()
   @IsString()
   username: string;
 
   @ApiProperty()
+  @IsNotEmpty()
   @IsEmail()
   email: string;
 

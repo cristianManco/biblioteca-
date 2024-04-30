@@ -60,11 +60,25 @@ $ yarn run test:cov
 
 ## Auth
 
+
 - JWT secret generator command
 
 ```bash
 node -e "console.log(require('crypto').randomBytes(32).toString('hex'))"
 ```
+- viables de enviroment requiret
+
+```bash
+  DB_CONNECTION=
+  DB_HOST=
+  DB_NAME=
+  DB_USER=
+  DB_PASSWORD=
+  JWT_SECRET=
+  NODE_ENV=
+  ACCESS_TOKEN_EXPIRY=
+```
+
 
 ## PostMand resources
 
